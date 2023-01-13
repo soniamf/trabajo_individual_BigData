@@ -1,0 +1,28 @@
+/* css styles */
+
+
+
+
+/* justificar el texto */
+
+
+p, ul, ol {
+ text-align: justify; }   
+
+
+
+.rojo {
+
+ color: red;
+
+}
+
+
+
+.importante {
+
+ color: red;
+
+ background-color: green;
+ 
+}

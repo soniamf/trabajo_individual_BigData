@@ -1,0 +1,48 @@
+
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Inversion en protección medio ambiental"
+  navbar:
+    logo: "imagen.jpg"
+    background: 'green'
+    right:
+      - text: "Trabajo individual Big Data"
+        href: blog.qmd
+      - icon: github
+        href: https://github.com/<Soniamf>
+      - icon: twitter
+        href: https://twitter.com/<tu-usuario-twitter>
+      - icon: envelope
+        url: "mailto:<somonfer@alumni.uv.es>"
+    page-footer: 
+      background: "green" 
+      left: "© 2022 Paula, Sonia y Leire"   #--
+      center: "Hecho con [Quarto](https://quarto.org)"
+   
+format:
+  html:
+    theme: flatly           #- https://quarto.org/docs/output-formats/html-themes.html
+    highlight-style: a11y   #-
+    css: styles.css      #- si queréis añadir cosas
+    page-layout: full
+    toc: true
+    code-copy: true
+    code-overflow: wrap    
+    code-fold: show
+    code-line-numbers: true
+    
+lang: es
+
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>" 
+    fig.asp:  7/9
+    out.width: "95%"
+    fig.align: "center"
+    fig.show: "hold"
+    R.options:
+      options(scipen = 999)

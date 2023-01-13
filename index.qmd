@@ -1,0 +1,24 @@
+---
+title: Trabajo individual Big Data 
+about:
+  template: solana    #- {jolla, solana, ...}
+  image-width: 10em     #- https://cybmeta.com/em-y-rem
+  image-shape: round    #- rectangle, round, rounded
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com
+---
+
+Hola soy Sonia Monleón
+
+Este es mi blog y voy a presentar mi trabajo relacionado con la inversión en protección medio ambiental.
+
+Repo utilizado para elaborar el trabajo individual para la asignatura "Programación y manejo de datos en la era del Big Data" de la Universitat de València durante el curso 2022-2023
+
+
+La página web de la asignatura puede verse [aquí](https://perezp44.github.io/intro-ds-22-23-web/07-trabajos_2022-23.html)
+
+
+El repo del trabajo está [aquí](https://github.com/Soniamf)
+
